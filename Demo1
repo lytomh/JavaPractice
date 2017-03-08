@@ -1,0 +1,53 @@
+#2017-03-08
+
+public class Person {
+
+	public static void main(String[] args) {
+	 //一个JAVA源文件不能出现多个Public公有类.	
+		/*创建对象方法1:  类名 对象名=new 类名（）；①对象声明： 类名 对象名 ②对象
+		创建：对象名=new 类名（）*/
+		Test p1=new Test();
+		p1.speak();
+		//Jisuan p2=new Jisuan();
+		p1.jisuan();
+		System.out.println();
+		p1.jisuan();
+		System.out.println(); 
+		p1.add(1, 6);
+	}
+
+}
+
+class Test{
+	public void speak(){
+		System.out.println("你好吗?");
+	}
+	
+	public void jisuan(){
+		int b=1;
+		for(int a=0;a<15;a++)
+			b=b*2;
+			System.out.print(b);
+	}		
+	public void jisuan(int n){
+		int b=1;
+		for(int a=0;a<=n;a++)
+			b=b+2;
+			System.out.print("结果是:"+b);
+		
+	}
+	public void add(int num1,int num2){
+		int result=0;
+		result =num1+num2;
+		System.out.println(result);
+	}
+/*class Jisuan{
+	public void jisuan(){
+		int b=1;
+		for(int a=0;a<10;a++)
+			b=b*2;
+			System.out.print(a+b);
+	}
+}*/
+
+}
