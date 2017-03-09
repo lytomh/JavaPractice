@@ -6,7 +6,8 @@ public class Person {
 	 //一个JAVA源文件不能出现多个Public公有类.	
 		/*创建对象方法1:  类名 对象名=new 类名（）；①对象声明： 类名 对象名 ②对象
 		创建：对象名=new 类名（）*/
-		Test p1=new Test();
+   /*java中小数没有加f的数默认是double型加了就是float型*/
+Test p1=new Test();
 		p1.speak();
 		//Jisuan p2=new Jisuan();
 		p1.jisuan();
